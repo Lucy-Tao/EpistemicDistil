@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Model checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Experiment outputs
+outputs/
+results/
+logs/
+wandb/
+
+# Data
+*.jsonl
+data/
+
+# Environment
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
